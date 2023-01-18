@@ -1,0 +1,18 @@
+{% extends 'galeria/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="pagina-inicial">
+
+        {% include 'galeria/partials/_cabecalho.html' %}
+
+        <main class="principal">
+            {% include 'galeria/partials/_menu_lateral.html' %}
+            <section class="conteudo">
+                {% include 'galeria/partials/_banner.html' %}
+                {% include 'galeria/partials/_tags.html' %}
+                {% include 'galeria/partials/_galeria.html' %}
+            </section>
+        </main>
+    </div>
+
+{% endblock %}
