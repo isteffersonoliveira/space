@@ -1,2 +1,2 @@
 # space
-Projeto python django para aprendizado do framwork
+Projeto python django para aprendizado do framwork.
